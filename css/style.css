@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  margin-top: 10px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url("./fundo.avif") center / cover no-repeat fixed;
+}
+
+nav {
+  font-weight: bold;
+}
+
+nav a {
+  width: 200px;
+  padding: 10px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+nav a:hover,
+div a:hover,
+footer a span:hover {
+  color: #747474;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin: 20px 0 20px 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+
+img {
+  width: 10%;
+  height: auto;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+h3 {
+  padding: 0 200px 0 200px;
+}
+
+footer {
+  padding-bottom: 60px;
+}
+
+#projetos {
+  margin: 300px 0 300px 0;
+}
+
+#imgusuario {
+  width: 25%;
+  display: block;
+}
+
+#containerini {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 100px 200px 100px;
+}
+
+#containerproj {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 100px;
+}
+
+#containertec {
+  margin-bottom: 250px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+#card {
+  width: 800px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#containerproj a{
+  width: 200px;
+  padding: 10px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dofooter {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.dofooter a {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding: 10px 20px 10px 10px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dofooter img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
