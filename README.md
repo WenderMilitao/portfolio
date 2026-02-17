@@ -31,7 +31,7 @@ Neste portfólio você poderá encontrar:
 ---
 
 ## 📂 Estrutura do projeto
-
+```
 portfolio/
 │
 ├── index.html
@@ -47,6 +47,7 @@ portfolio/
 ├── css/
 │ ├── fundo.avif
 │ └── style.css
+```
 ---
 
 ## 🖥️ Funcionalidades do site
