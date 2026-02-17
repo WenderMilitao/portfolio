@@ -44,8 +44,9 @@ portfolio/
 │ ├── insta.png
 │ ├── linkedin.png
 │ └── github.png
-
-
+├── css/
+│ ├── fundo.avif
+│ └── style.css
 ---
 
 ## 🖥️ Funcionalidades do site
@@ -59,7 +60,7 @@ portfolio/
 
 ## 📸 Preview do projeto
 
-*(Você pode colocar um print do site aqui depois)*
+*(colocar um print do site aqui depois)*
 
 ---
 
